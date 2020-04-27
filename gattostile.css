@@ -1,0 +1,153 @@
+   #body {
+     background-image: url("glicoface.png");
+     background-repeat:repeat;
+     background-attachment:fixed;
+  }
+   #parole {
+     position: absolute;
+	 bottom: 25%;
+     margin: auto;
+	 border: none;
+  }
+  
+   #avviso  {
+     position: absolute;
+     border-radius: 25px;
+     border: 2px double #FF0000;
+	 bottom: 0px;
+     height: auto;
+	 margin: auto;
+     width: 50%;
+     background-color: #ffffff;
+     color: red;
+     text-align: center;
+     font-size: 2em;
+  }
+
+  #generale {
+     border-radius: 25px;
+     border: 2px dashed #FF0000;
+     width: 80%;
+     height: auto;  
+     margin: auto;
+     background-color: #ffffff;
+	 font-size: 2em
+     opacity: 0.9;
+     filter: alpha(opacity=90); /* For IE8 and earlier */
+  }
+  
+  #video {
+     border-radius: 25px;
+     border: 2px dashed #FF0000;
+     width: 80%;
+     height: auto;  
+     margin: auto;
+     background-color: #ffffff;
+     text-align: center;
+  }
+
+  #titolo {
+     border-radius: 25px;
+     border-style: ridge;
+	 border-color: #FF0000;
+	 border-size: 5px;
+     width: 50%;
+     height: auto;  
+     margin: auto;
+     background-color: #B0E0E6;
+     font-weight: bold;
+     color: #DC143C;
+     text-align: center;
+     font-size: 2em;
+  }
+
+  #titolo2 {
+     border-radius: 25px;
+     border: 2px groove #FF0000;
+     width: 40%;
+     height: auto;  
+     margin: auto;
+     background-color: #CCFF00;
+     font-weight: bold;
+     color: red;
+     text-align: center;
+     opacity: 0.9;
+     filter: alpha(opacity=90); /* For IE8 and earlier */
+
+  }
+
+  #descrizione {
+     width: 75%;
+     height: auto;  
+     font-size: 1em;
+     text-align: full;
+     padding: 10px;
+     margin: auto;
+	 font-size: 1.5em;
+
+  }
+
+  #collegamenti {
+     border-radius: 25px;
+     border: 2px dashed #FF0000;
+     width: 50%;
+     height: auto;  
+     text-align: center;
+     background-color: lightgrey;
+     margin: auto;
+	 font-size: 1.5em;
+
+  }
+
+  #contatti {
+     text-align: center;
+     font-size: 2em;
+     width: 75%;
+     margin: auto;
+  }
+
+  #compleanni {
+     border-radius: 25px;
+     border: 2px groove #FF0000;
+     background-color:orange;
+	 padding: 10px;
+     width: 75%;
+     margin: auto;
+	 opacity: 0.9;
+     filter: alpha(opacity=90); /* For IE8 and earlier */
+
+  }
+
+  #matrimoni {
+     border-radius: 25px;
+     border: 2px groove #FF0000;
+     background-color:white;
+     width: 75%;
+     margin: auto;
+     opacity: 0.9;
+     filter: alpha(opacity=90); /* For IE8 and earlier */
+
+  }
+  #battesimi {
+     border-radius: 25px;
+     border: 2px groove #FF0000;
+     background-color:pink;
+     width: 75%;
+     margin: auto;
+     opacity: 0.9;
+     filter: alpha(opacity=90); /* For IE8 and earlier */
+
+  }
+
+  #galleria {
+     border-radius: 25px;
+     border: 2px ridge #FF0000;
+     width: 50%;
+     height: auto;  
+     margin: auto;
+     opacity: 0.9;
+     filter: alpha(opacity=90); /* For IE8 and earlier */
+     background-color:lightgrey;
+     align: center;
+  }
+
