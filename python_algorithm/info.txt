@@ -1,0 +1,1 @@
+cartella per file da usare per esecuzione python
