@@ -4,22 +4,22 @@
      background-attachment:fixed;
   }
    #parole {
-     position: absolute;
+     position: relative;
 	 bottom: 25%;
      margin: auto;
 	 border: none;
   }
   
    #avviso  {
-     position: absolute;
+     position: relative;
      border-radius: 25px;
-     border: 2px double #FF0000;
+	 border: none;
 	 bottom: 0px;
      height: auto;
 	 margin: auto;
      width: 50%;
      background-color: #ffffff;
-     color: red;
+     color: #000000;
      text-align: center;
      font-size: 2em;
   }
@@ -30,13 +30,17 @@
      width: 80%;
      height: auto;  
      margin: auto;
+     text-align: center;
      background-color: #ffffff;
-	 font-size: 2em
+	 font-size: 2em;
      opacity: 0.9;
      filter: alpha(opacity=90); /* For IE8 and earlier */
   }
   
   #video {
+
+	 border: 2px double #FF0000;
+
      border-radius: 25px;
      border: 2px dashed #FF0000;
      width: 80%;
@@ -79,11 +83,10 @@
   #descrizione {
      width: 75%;
      height: auto;  
-     font-size: 1em;
-     text-align: full;
+     font-size: 0.5 em;
+     text-align: center;
      padding: 10px;
      margin: auto;
-	 font-size: 1.5em;
 
   }
 

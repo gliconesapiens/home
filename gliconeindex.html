@@ -3,22 +3,20 @@
 	<title>Glicone, il Gatto Sapientone</title>
     <link rel="stylesheet" href="gattostile.css" type="text/css"></link>
 	<link rel="icon" href="/glicoface.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </head>
 <body>
 <h1 id="titolo"><img alt="gatto lollipop" src="lollipop.gif" width="100px" height="50px" title="glicone lollipop" /><sup> Glicone - il Gatto Sapientone </sup><img alt="gatto lollipop" src="lollipop.gif" width="100px" height="50px" title="glicone lollipop" /></h1>
-<div id="descrizione">Benvenuto nella cuccia di Glicone, Gatto Sapientone di stirpe divina, come tutti i gatti. Puoi porgli qulunque domanda, che non preveda come risposta un s&igrave; o un no. Siccome lui sa, se ne avr&agrave; voglia, ti risponder&agrave;, altrimenti continuer&agrave; a leccarsi.</div1>
+<div id="descrizione"><p>Benvenuto nella cuccia di Glicone, divino Gatto Sapientone.</p><p>Puoi porgli una domanda, che non preveda come risposta un s&igrave; o un no.</p><p>Siccome lui sa, se ne avr&agrave; voglia, ti risponder&agrave;, altrimenti continuer&agrave; a leccarsi.</p><p>Ricorda che &egrave; un Gatto, ma soprattutto un Oracolo: sar&agrave; tuo compito interpretare correttamente la risposta!</p></div>
 <div>&nbsp;</div>
 <div id="avviso">
 
- <fieldset>
+<fieldset>
   <legend id="descrizione">Scrivi la domanda e premi il tasto</legend>
-  <label> <input type=”text”>
-  <button onclick="random()">Chiedi</button>
-  <p id="one"></p></label>
-
-
-
+  <label id="one"><input type="text"></label><label>&nbsp;</label>
+  <label id="two"><button onclick="random()" id="two">Chiedi</button></label>
+   
 <script src="main.js"></script>
 </fieldset>
 
